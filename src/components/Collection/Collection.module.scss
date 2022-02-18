@@ -1,0 +1,14 @@
+.collection-c {
+  .list-container {
+    display: flex;
+    justify-content: center;
+    .item-list {
+      width: 100%;
+      max-width: 600px;
+      display: block;
+      .item {
+        display: block;
+      }
+    }
+  }
+}

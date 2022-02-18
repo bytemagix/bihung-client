@@ -1,0 +1,2 @@
+(this.webpackJsonpdd=this.webpackJsonpdd||[]).push([[0],[function(n,i,o){"use strict";o.r(i);o(1),o(2),o(3);console.log("loading app..."),Promise.all([o.e(3),o.e(2)]).then(o.bind(null,4)).then((function(n){n.init()}))},function(n,i,o){},function(n,i,o){},function(n,i,o){}],[[0,1]]]);
+//# sourceMappingURL=main.f426b6d2.chunk.js.map

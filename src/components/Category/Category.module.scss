@@ -1,0 +1,44 @@
+.category {
+  width: 100%;
+  min-height: 70vh;
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  background-color: #eee;
+
+  .content {
+    width: 40%;
+
+    .header {
+      padding: 10px 0px;
+      .header-title {
+        font-size: 1.3rem;
+        font-weight: bold;
+        text-transform: uppercase;
+        color: #244233;
+        display: block;
+        text-align: center;
+      }
+    }
+
+    .item {
+      margin-top: 10px;
+      padding: 10px;
+      display: flex;
+      flex-direction: column;
+      box-shadow: 1px 1px 1px 1px #333;
+      border-radius: 5px;
+      .word {
+        width: 50%;
+        padding: 3px;
+        font-weight: 700;
+      }
+
+      .enmeanings {
+        padding: 3px;
+        color: #2f65d8;
+        font-weight: 700;
+      }
+    }
+  }
+}

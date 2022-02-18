@@ -1,0 +1,100 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+header {
+  display: block;
+  height: 120px;
+  // background-color: rgb(7, 37, 7);
+  background-color: #f8fbf8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  #head {
+    height: 100%;
+    width: 100%;
+    max-width: 1200px;
+    box-sizing: border-box;
+    display: flex;
+    margin: 0 20px;
+    .logo {
+      // position: absolute;
+      // top: 0;
+      // left: 0;
+      background-color: white;
+      height: 100px;
+      width: 100px;
+      box-sizing: border-box;
+      border-radius: 5px;
+      margin: 10px;
+      z-index: 1;
+      cursor: pointer;
+      text-decoration: none;
+      color: #404cff;
+      opacity: 1 !important;
+      visibility: visible !important;
+
+      img {
+        width: 100%;
+        height: 65px;
+        object-fit: contain;
+        object-position: center;
+      }
+
+      .brand {
+        font-size: 30px;
+        font-weight: bold;
+        text-align: center;
+      }
+      // svg{
+      //   height: 100px;
+      //   width: 100px;
+      //   fill: white;
+      //   stroke: white;
+      //   opacity: 0.04;
+      //   ellipse, path, line{
+      //     // fill: white;
+      //     stroke: white;
+      //   }
+      //   polygon{
+      //     fill: white;
+      //     stroke: white;
+      //   }
+      // }
+    }
+    #top-controls {
+      flex-grow: 1;
+      height: 100%;
+      padding: 10px 0;
+      box-sizing: border-box;
+    }
+  }
+}
+
+#root {
+  min-height: calc(100vh - 125px);
+}
+
+footer {
+  display: block;
+  height: 100px;
+  background-color: #09465f;
+}
