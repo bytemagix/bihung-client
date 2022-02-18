@@ -14,8 +14,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build && copy build/index.html build/index-template.marko && copy -r build/ ../server/views/",
-    "buildwin": "react-scripts build && copy build/index.html build/index-template.marko",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
